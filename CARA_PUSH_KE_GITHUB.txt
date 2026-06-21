@@ -1,0 +1,104 @@
+================================================================================
+                    CARA PUSH WEBSITE KE GITHUB
+================================================================================
+
+MASALAH: Git belum terinstall di komputer Anda!
+
+================================================================================
+SOLUSI CEPAT - IKUTI LANGKAH INI:
+================================================================================
+
+LANGKAH 1: INSTALL GIT
+----------------------
+1. Buka browser dan download Git dari:
+   https://git-scm.com/download/win
+
+2. Jalankan installer yang sudah didownload
+3. Klik "Next" terus sampai selesai (gunakan pengaturan default)
+4. Setelah selesai install, RESTART komputer Anda
+
+
+LANGKAH 2: BUAT REPOSITORY DI GITHUB
+------------------------------------
+1. Buka https://github.com dan login dengan akun: rehanferdian06
+2. Klik tombol "+" di pojok kanan atas
+3. Pilih "New repository"
+4. Isi nama repository: music-portfolio
+5. Pilih "Public" 
+6. JANGAN centang "Add a README file"
+7. Klik "Create repository"
+
+
+LANGKAH 3: JALANKAN SCRIPT OTOMATIS
+-----------------------------------
+Setelah Git terinstall dan repository GitHub sudah dibuat:
+
+1. Buka folder: C:\Users\LENOVO\Desktop\music-portfolio
+2. Double-click file: push-to-github.bat
+3. Script akan otomatis:
+   ✓ Inisialisasi Git
+   ✓ Menambahkan semua file
+   ✓ Commit perubahan
+   ✓ Push ke GitHub
+
+SELESAI! 🎉
+
+
+LANGKAH 4: CEK HASILNYA
+-----------------------
+Buka browser dan pergi ke:
+https://github.com/rehanferdian06/music-portfolio
+
+Anda akan melihat semua file website sudah terupload!
+
+
+================================================================================
+BONUS: DEPLOY KE GITHUB PAGES (Website jadi LIVE!)
+================================================================================
+
+Setelah file sudah di GitHub, buat website Anda bisa diakses online:
+
+1. Di repository GitHub, klik tab "Settings"
+2. Klik "Pages" di menu sebelah kiri
+3. Di bagian "Branch", pilih "main"
+4. Klik "Save"
+5. Tunggu beberapa menit
+
+Website Anda akan live di:
+https://rehanferdian06.github.io/music-portfolio/
+
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Jika ada masalah:
+
+1. Git masih tidak dikenali setelah install?
+   → Restart komputer Anda
+
+2. Error saat push?
+   → Pastikan repository "music-portfolio" sudah dibuat di GitHub
+   → Pastikan nama repository sama persis: music-portfolio
+
+3. Butuh bantuan lebih?
+   → Buka file: GITHUB_SETUP_INSTRUCTIONS.md
+   → File ini berisi panduan detail lengkap
+
+
+================================================================================
+FILE-FILE YANG SUDAH DISIAPKAN:
+================================================================================
+
+✓ index.html              - Halaman utama website
+✓ style.css               - Styling website
+✓ script.js               - JavaScript interaktif
+✓ README.md               - Dokumentasi repository
+✓ .gitignore              - File yang diabaikan Git
+✓ push-to-github.bat      - Script otomatis push ke GitHub
+✓ GITHUB_SETUP_INSTRUCTIONS.md - Panduan lengkap detail
+
+
+================================================================================
+SELAMAT! WEBSITE MUSIK PORTFOLIO ANDA SIAP DI-PUSH KE GITHUB! 🎵🎸
+================================================================================
